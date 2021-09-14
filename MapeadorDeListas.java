@@ -7,7 +7,8 @@ Map<String, Integer> metodo1(Integer... inteiro){
    ...>            b.add(x.toString());
    ...>        }
    ...>        Map<String,Integer> map = new HashMap<String,Integer>();
-   ...> 
+   ...>           //Se eu quiser posso paginar os array com o sublist.
+   ...>           //exemplo: List<Integer> arrayPaginado = a.subList(0,3);
    ...>        for(Integer agy = 0; agy < a.size(); agy++){
    ...>             map.put("a"+b.get(agy),a.get(agy));
    ...>        }
